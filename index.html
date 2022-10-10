@@ -10,10 +10,10 @@
     <header>
       <h1>Project Banana First Brainstorm</h1>
       <h2>Brainstorming</h2>
-      <h3>Jan 01, 2032</h3>
+      <details><summary>Meeting Date</summary><h3>Jan 01, 2032</h3></details>
     </header>
     <main>
-      <div>MEETING MINUTES</div>
+      <div><h3>MEETING MINUTES</h3></div>
       <nav>
         <ul>
           <li><a href="#attendenceList">Attendence List</a></li>
@@ -21,6 +21,7 @@
           <li><a href="#unfinishedBusiness">Unfinished Business from Last Meeting</a></li>
           <li><a href="#newBusiness">New Business to Address</a></li>
           <li><a href="#comments">Miscellaneous Comments/Questions/Concerns</a></li>
+          <li><a href="#appendix">Appendix</a></li>
         </ul>
       </nav>
       <section>
@@ -50,6 +51,44 @@
       <br>
     </main>
     <footer>
+      <h4 id="#appendix">Appendix</h4>
+      <h5>Presented picture</h5>
+      <img src="/IMG_9938.png" width="50" alt="presented picture">
+      <h5>Recordings></h5>
+      <audio controls>
+        <source src="/IMG_0218.mp4" type="audio/mp4">
+      </audio>
+      <video width="320" height="240" controls>
+        <source src="/IMG_02182.mp4" type="video/mp4">
+      </video>
+      <h5>Suggestion Box</h5>
+      <form>
+        <fieldset>
+          <label>First name:</label><br>
+          <input type="text" name="fname"><br>
+          <label>Last name:</label><br>
+          <input type="text" name="lname">
+          <textarea name="comment">
+          <label for="comment">Tell us your comment:</label><br>
+          </textarea>
+          <label>Submit comment to:</label>
+          <datalist id="submitTo">
+            <option value="Manager">
+            <option value="Boss">
+            <option value="Coworker">
+          </datalist>
+          <label for="submissionForm">Choose a pet:</label>
+          <select name="form" id="submissionForm">
+            <option value="">--Please choose an option--</option>
+            <option value="email">Email</option>
+            <option value="verbal">Verbal</option>
+            <option value="meeting">Meeting</option>
+          </select>
+        </fieldset>
+        <button type="button">
+          Submit
+        </button>
+      </form>
     </footer>
   </body>
-<html>
+</html>
