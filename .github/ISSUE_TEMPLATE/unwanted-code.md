@@ -4,6 +4,17 @@ about: This code/file of code is unwanted and needs to be deleted
 title: "[filename] or [filename/line numbers]"
 labels: ''
 assignees: ''
+body:
+  - type: textarea
+    id: fileName
+    attributes:
+      label: Which file/lines from file should be deleted?
+      description: asfdads
+      placeholder: as
+      value: "line"
+    validations:
+      required: true
+      
 
 ---
 
