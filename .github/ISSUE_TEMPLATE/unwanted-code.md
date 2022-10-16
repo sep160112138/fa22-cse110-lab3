@@ -8,10 +8,8 @@ body:
   - type: textarea
     id: fileName
     attributes:
-      label: Which file/lines from file should be deleted?
-      description: asfdads
-      placeholder: as
-      value: "line"
+      label: "Which file/lines from file should be deleted?"
+      value: "filename and line numbers"
     validations:
       required: true
       
