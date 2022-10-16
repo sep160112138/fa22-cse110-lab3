@@ -5,13 +5,13 @@ title: "[filename] or [filename/line numbers]"
 labels: ''
 assignees: ''
 body:
-  - type: textarea
-    id: fileName
-    attributes:
-      label: "Which file/lines from file should be deleted?"
-      value: "filename and line numbers"
-    validations:
-      required: true
+  type: textarea
+  id: fileName
+  attributes:
+    label: "Which file/lines from file should be deleted?"
+    value: "filename and line numbers"
+  validations:
+    required: true
       
 
 ---
