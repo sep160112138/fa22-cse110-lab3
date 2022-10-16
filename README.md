@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://sep160112138.github.io/Lab2_Starter/
+# Lab 3 - Starter
+https://sep160112138.github.io/fa22-cse110-lab3/
