@@ -1,0 +1,86 @@
+body {
+  border: 2px solid black;
+  padding: 0.5em;
+  margin-top: 1cm;
+  margin-bottom: 5mm;
+  margin-left: 1in;
+  margin-right: 10px;
+  padding-top: 1vh;
+  padding-bottom: 1vw;
+  padding-left: 1vmin;
+  padding-right: 1vmax;
+}
+
+header {
+  background: border-box red;
+  background-color: green;
+  margin: 1mm 2mm 3mm 4mm;
+  padding: 1mm 2mm 3mm 4mm;
+}
+
+h1 {
+  /*This color is lime green*/
+  color: rgb(142, 239, 52);
+  text-align: middle;
+}
+
+h2 {
+  /* This color is pink/salmon */
+  color: #F2A692;
+}
+
+h3 {
+  /* This color is light purple */
+  color: hsl(261,97,71);
+}
+
+h4 {
+  color: blue;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-style: dashed;
+  border-color: red;
+  border-width: 1px;
+  border-radius: 1px;
+}
+
+footer {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+nav {
+  display: block;
+  height: 1000px;
+  width: 500px;
+  max-width: 1000px;
+  min-width: 400px;
+  position: static;
+}
+
+ul {
+}
+
+li {
+}
+
+ol {
+}
+
+p {
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:active {
+  box-shadow: 2px 2px 5px grey;
+}
