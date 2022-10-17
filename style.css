@@ -34,14 +34,15 @@ h3 {
   color: hsl(261,97,71);
 }
 
-h4 {
+h4,
+p {
+  font-family: 'Roboto Condensed', sans-serif;
   color: blue;
   text-decoration: underline;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  display: block;
   margin: auto;
   border-style: dashed;
   border-color: red;
@@ -57,7 +58,6 @@ footer {
 }
 
 nav {
-  display: block;
   height: 1000px;
   width: 500px;
   max-width: 1000px;
@@ -66,15 +66,22 @@ nav {
 }
 
 ul {
-}
-
-li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
 }
 
 ol {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: [firstColumn] 100px [secondColumn] 100px;
+  grid-template-row: [firstRow] 100px [secondRow] 100px;
 }
 
-p {
+ul li {
+  background-color: yellow;
 }
 
 button:hover {
@@ -83,4 +90,49 @@ button:hover {
 
 button:active {
   box-shadow: 2px 2px 5px grey;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: white;
+  }
+}
+
+.class {
+  background-color: yellow;
+}
+
+#appendix {
+  background-color: red;
+}
+
+* {
+  background-color: pink;
+}
+
+a[href="#attendenceList"] {
+  background-color: gold;
+}
+
+ol > li {
+  background-color: orange;
+}
+
+h4 ~ h5 {
+  background-color: lavender;
+}
+
+h4 + p {
+  background-color: black;
+  color: white;
+}
+
+h5.suggest {
+  border-color: black;
 }
