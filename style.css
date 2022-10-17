@@ -42,7 +42,7 @@ p {
 }
 
 main {
-  display: block;
+  display: inline;
   margin: auto;
   border-style: dashed;
   border-color: red;
@@ -51,7 +51,7 @@ main {
 }
 
 footer {
-  display: inline;
+  display: block;
   position: absolute;
   top: 100px;
   left: 50px;
